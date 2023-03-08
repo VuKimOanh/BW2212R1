@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .dashed-box{ 
+        margin: 25px;
+        padding: 35px;
+        width: 200px;
+        background-color: rgb(201, 158, 73);
+        border: 25px dashed indianred;
+    }
+    .box-outside{
+        box-shadow: inset 0 0 20px #829d8b;
+        margin: 20px;
+        padding: 35px;
+        width: 100px;
+        border-radius: 50%;
+    }
+   
+    .box-outside .box-inside{
+        box-shadow: inset 0 0 20px #132f20;
+        padding: 50px 25px 50px 25px;
+        border-radius: 5px;
+    }
+    .rect-outside{
+        margin-top: 25px;
+        padding: 50px 150px;
+        border-radius: black;
+        border: 5px  indianred solid;
+        display: inline-block;
+    }
+    .rect-left{
+        margin-top: 0px;
+        padding: 45px 80px;
+        border-radius: black;
+        border: 5px  indianred solid;
+        }
+    .rect-right{
+        margin-top: 0px;
+        padding: 45px 80px;
+        border-radius: black;
+        border: 5px  indianred solid;
+    }
+    
+    </style>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="dashed-box">
+                Học nhiều chỉ tóm lại bằng chữ "hơn"
+            </div>
+        </div>
+        <hr>
+        <div class="box-outside">
+            <div class="box-inside"></div>
+        </div>
+        <hr>
+        <div class="rect-outside">
+             <div class="rect-left"></div>
+             <div class="rect-right"></div>
+        </div>
+    </main>
+</body>
+</html>
