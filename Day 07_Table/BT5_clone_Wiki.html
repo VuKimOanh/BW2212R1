@@ -4,9 +4,95 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Wikipedia, bách khoa toàn thư</title>
+    <link rel="stylesheet" href="css/test.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .InputWithIcon {
+        position: relative;
+        }
+        .InputWithIcon i {
+        position: absolute;
+        left: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        }
+        .InputWithIcon input[type="text"] {
+        padding-left: 30px;
+        }
+        #Search{
+            width: 500px;
+            height: 20px;
+        }
+        table{
+            left: 20px;
+            right: 20px;
+        }
+        .header th {
+            padding: 20px;
+        }
+
+
+    </style>
 </head>
 <body>
-    
+    <header>
+        <div>
+            <table>
+                <tr class="header">
+                    <th >
+                        <i class="fa-solid fa-bars" style="font-size: 30px;"></i>
+                    </th>
+                    <th >
+                          <img src="./assis/media/image/1200px-Wikipedia-logo-v2.svg.png" height="50px" width="50px" alt="" />
+                    </th>
+                    <th>
+                        <span style="font-size:30px;font-family:Lucida Bright;">Wikipedia </span><br> <span style="font-size:12px;font-family:Garamond;">Bách khoa toàn thư mở </span>
+                    </th>
+                    <th >
+                        <div class="InputWithIcon">
+                                <i class="fas fa-search"></i>
+                                <input type="text" id="Search" placeholder="Tìm kiếm trên Wikipedia" >
+                        <div>
+                    </th>
+                    <th >
+                        <p style="color: blue;font-family: sans-serif;">Tạo tài khoản</p>
+                    </th>
+                    <th >
+                        <p style="color: blue;font-family: sans-serif;">Đăng nhập</p>
+                    </th>
+                    <th >
+                        <i class="fa-solid fa-ellipsis" style="font-size: 20px;"></i>
+                    </th>
+                </tr>
+            </table>
+        </div>
+    </header>
+    <main>
+        <div >
+            <table>
+                <tr>
+                    <th></th>
+                    <th>
+                        <table>
+                            <tr>
+                                <th important style="text-align: left;"> Trang chính</th>
+                                <th> Thảo luận</th>
+                                <th> Đọc</th>
+                                <th>Xem mã nguồn</th>
+                                <th>Xem lịch sử</th>
+                                <th>Công cụ </th>
+                            </tr>
+                        </table>
+                        <hr style="width: 50%;">
+                        <table></table>
+                        <table></table>
+                    <th></th>
+                </tr>
+            </table>
+        </div>
+    </main>
+    <footer></footer>
 </body>
 </html>
+
